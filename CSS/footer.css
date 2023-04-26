@@ -1,0 +1,48 @@
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: rgb(248, 177, 85);
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    padding: 1em;
+    height: 6em;  
+    margin-top: auto;
+}
+
+
+
+
+#texte {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#texte li{
+    margin-left: 1em;
+    text-align: center;
+    display: inline-block;
+     flex: 1 1 auto;
+}
+
+#texte a{
+    text-decoration: none;
+    color: white;
+}
+
+#texte a:hover{
+    text-decoration: underline;
+}
+
+
+

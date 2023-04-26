@@ -1,0 +1,80 @@
+.title_race{
+    text-align: center;
+    margin: 0;
+    padding: 2em;
+    font-size: 3em;
+    background-image: url(../images/desc.jpg);
+    background-size: cover;
+    background-position: 55% 30%;
+    color: white;   
+}
+
+#liste_race_d{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#liste_race_d p{
+    cursor: pointer;
+    transition: 0.2s;
+    text-align: center;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 2em;
+   
+}
+
+#liste_race_d p:hover{
+    transform: scale(1.04);
+}
+
+#liste_race_d a{
+    width: 50%;
+    text-decoration: none;
+}
+
+#div_liste_race{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.liste_race_par_esp {
+    width: 70%;
+}
+
+.liste_race_par_esp p{
+    font-size: 1.2em;
+    width: 50%;
+    padding: 1em;
+}
+
+.liste_race_par_esp p:hover{
+    color: black;
+}
+
+
+.liste_race_par_esp a{
+    text-decoration: none;
+}
+
+#side_img_liste_race{
+
+    width: 30%;
+}
+
+#side_img_liste_race img{
+    width:100%;
+    height:100%; 
+    object-fit:cover;
+}

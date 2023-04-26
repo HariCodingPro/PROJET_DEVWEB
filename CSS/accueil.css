@@ -1,0 +1,104 @@
+#accueil_div{
+    height: 25em;
+    background: url(../images/alm.jpg) no-repeat center center ; 
+    background-position: 0px -150px;
+    border: 0.5px solid rgb(255, 255, 255);
+    background-size: cover;
+   
+
+}
+
+#accueil_div div{
+  
+ 
+}
+
+#texte_accueil{
+    height: 70%;
+    text-align: center;
+    width: 40%;
+
+    
+}
+
+#texte_accueil p{
+    font-size: 2em;
+    padding: 2em;
+
+}
+
+#first_bouton{
+    height: 30%;   
+    width: 40%;
+}
+
+#first_bouton ul{
+    padding: 0; 
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#first_bouton li{
+    width: 50%;
+   
+    
+}
+
+
+#first_bouton input{
+   
+    white-space: normal;
+    height: 50%;
+    width: 80%;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(57, 69, 97);
+    color: white;
+    transition: 0.2s;
+   
+}
+
+#first_bouton input:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#first_bouton input:active{
+    background-color: rgb(200, 213, 255);
+    color: white;
+
+    border: none;
+    transition: 0s;
+}
+
+#new_video{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+   
+}
+
+#new_video div{
+    border: 1px solid;
+
+    width: 40%;
+    margin-left: auto;
+    background-color: rgb(250, 244, 242);
+    border-radius: 0 10px 10px 0;
+}
+
+#new_video p{
+    padding: 1em;
+}
+
+#new_video h3{
+    margin-left: 1em;
+}
+

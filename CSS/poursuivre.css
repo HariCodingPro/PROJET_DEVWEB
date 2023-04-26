@@ -1,0 +1,45 @@
+#texte_motivation{
+    border: 1px solid;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1em;
+    
+}
+
+#texte_motivation p, ul {
+    text-align: left;
+}
+
+.final_butt{
+    padding: 1.5em;
+    color: white;
+    background-color: orange;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 20%;
+    transition: 0.2s;
+}
+
+.final_butt:hover{
+    background-color: rgb(156, 255, 145);
+    color: black;
+    cursor: pointer;
+}
+
+.final_butt:active{
+    transition: 0s;
+    color: white;
+}
+
+#last_step{
+    text-align: center;
+    border: 1px solid;
+    color: white;
+    padding: 3em;
+    margin-top: 0;
+    background-image: url(../images/alm2.jpg);
+    background-position: 10px -250px;
+}

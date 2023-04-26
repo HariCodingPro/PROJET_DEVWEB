@@ -1,0 +1,30 @@
+#image{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 2px;
+    left: 500px;
+
+}
+
+#images{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 2px;
+    left: 900px;
+
+}
+
+.texte{
+    text-align: center;
+    margin: 5em;
+}
+
+#court{
+    text-align: center;
+}
+
+.container{
+    position: relative;
+}

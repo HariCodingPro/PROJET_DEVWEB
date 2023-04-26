@@ -1,0 +1,206 @@
+
+/*CSS connexion et creationcompte*/
+
+#formannonce {
+    border:1px solid white;
+    margin: 2em;
+    display: flex;
+    height: 100%;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: white;
+
+}
+
+#forms{
+    width: 100%;
+    padding: 1em;
+
+}
+
+
+#forms input{
+    margin-bottom: 1em;
+    height: 2em;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none;
+}
+
+
+#forms input[type=text]:focus{
+    border: none;
+    transition: 0.2s;
+    border-bottom: 1px solid rgb(248, 177, 85);
+}
+
+#forms input[type=date]{
+    border: 1px solid rgb(248, 177, 85);
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#forms input[type=file]{
+    border: none;
+  
+}
+
+#forms input[type=submit]{
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 3em;
+}
+
+#un{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#un:hover{
+    text-decoration: underline;
+    color: rgb(248, 177, 85);
+    text-align: center;
+}
+
+
+
+
+#images_connexion{
+    background: url(../images/téléchargement.jpg) no-repeat center center fixed; 
+   background-size: cover;
+    width: 100%;
+    height: auto;
+    padding-top: 4em;
+    padding-bottom: 4em;
+
+}
+
+#images_connexion div{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+/*CSS Compte*/
+
+
+
+#connexion{
+    text-align:center;
+    font-size: 20px;
+    margin-bottom: 20px;;
+    color: white;
+}
+
+#bouton_connexion{
+    height: 30%;   
+    width: 50%;
+    text-align: center;
+}
+
+#bouton_connexion ul{
+    padding: 0; 
+    margin: 0;
+    list-style-type: none;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+
+#bouton_connexion input{
+   
+    white-space: normal;
+    height: 80px;
+    width: 400px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    transition: 0.2s;
+    font-size: 20px;
+    text-decoration: none;
+   
+}
+
+#bouton_connexion input:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#bouton_connexion input:active{
+    background-color: white;
+    color: black;
+    border: none;
+    transition: 0s;
+}
+
+#monbouton{
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    margin-top: 7em;
+
+}
+
+#monboutons{
+    margin-top: 4em;
+    width: 50%;
+    height: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+#image_connexion{
+    height: 30em;
+    background: url(../images/téléchargement.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    margin-top: -5em;
+}
+
+#image_connexion div{
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.submit_co{
+    transition: 0.2s;
+}
+.submit_co:hover{
+   background-color:rgb(248, 151, 6);
+   color: white;
+   transition: 0.2s;
+}
+
+.submit_co:active{
+    background-color:rgb(234, 206, 165);
+    transition: 0s;
+    
+}
+
+
+
+
+

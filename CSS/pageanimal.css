@@ -1,0 +1,97 @@
+.gauche{
+  border: 1px solid black;
+  width: 60%;
+}
+
+.droite{
+  width: 40%;
+  border: 1px solid;
+}
+
+.droite p{
+  margin-left: 1em;
+}
+
+.droite h2{
+  text-align: left;
+  margin-left: 1em;
+}
+
+#adj_page{
+  text-decoration: underline;
+}
+#contenu_page_animal{
+  display: flex;
+  flex-direction: row;
+}
+
+.ajouter_but_page{
+ 
+  margin: 2em;
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(252, 233, 204);
+  transition: 0.2s; 
+  border: 0.5px solid;
+  cursor: pointer;
+}
+
+.ajouter_but_page:hover{
+  background-color: rgb(248, 151, 6);
+  color: white;
+ 
+}
+
+.ajouter_but_page:active{
+  background-color: rgb(239, 189, 114);
+  color: white;
+  border: groove;
+  transition: 0s;
+}
+
+
+#image-annonce{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+
+
+#img_en_elle{
+ 
+  height: 30em;
+}
+
+#img_en_elle img{
+  object-fit: cover;
+}
+
+
+.leftButton{
+  width: 49%;
+  padding: 1em;
+  
+
+}
+
+.rightButton{
+  width: 49%;
+  padding: 1em;
+}
+
+#info_race_but{
+  color: gray;
+  margin-left: 1em;
+}
+
+#info_race_but:hover{
+  color: black;
+}
+
+#info_race_but:active{
+  color:orange;
+}
+

@@ -1,0 +1,112 @@
+
+
+.formsannonce {
+   
+    display: flex;
+    width: 31%;
+    margin: 1em;
+    text-align: center;
+    background-color: white;  
+
+}
+/*Gerer */
+
+.alignement{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.profile_content{
+    width: 100%;
+}
+
+.alignements{
+    display: flex;
+    flex-direction: column;
+}
+
+.moncompte_image{
+    width: 200px;
+    border-radius: 100px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bouton_compte{
+    margin-top: 10%;
+    margin-right: 50%;
+    white-space: normal;
+    height: 8%;
+    width: 100%;
+    border: none;
+    background-color: rgb(234, 233, 233);
+    color: none;
+    transition: 0.2s;
+    font-size: 13px;
+    text-decoration: none;
+    cursor:pointer;
+}
+
+.titre_compte{
+    font-size: 22px;
+}
+
+
+.annonces_compte{
+    border: 1px solid;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em;
+
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray;
+    transition: 0.2s;
+}
+
+.annonces_compte:hover{
+    transform: scale(1.05);
+}
+
+.liste_annonces_compte{
+    display: flex;
+    flex-direction: column;
+}
+
+.an_compte_img {
+   
+    width: 20%;
+    overflow: hidden;
+}
+
+.an_compte_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.an_infos {
+    margin-left: 1em;
+}
+
+.pageanimal_compte_but{
+    text-decoration: none;
+    color: rgb(143, 139, 132);
+}
+
+.error_compte{
+    color: red;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+   
+}

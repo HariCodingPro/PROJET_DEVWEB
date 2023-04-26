@@ -1,0 +1,91 @@
+#form_annonce {
+    border:1px solid;
+    margin: 2em;
+    display: flex;
+    height: 100%;
+}
+
+#form{
+    width: 70%;
+    padding: 1em;
+}
+
+
+#form input{
+    margin-bottom: 1em;
+    height: 2em;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid ;
+    outline: none;
+}
+
+
+#form input[type=text]:focus{
+    border: none;
+    transition: 0.2s;
+    border-bottom: 1px solid rgb(248, 151, 6);
+}
+
+#form input[type=date]{
+    border: 1px solid rgb(248, 151, 6);
+    border-radius: 10px;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+#form input[type=file]{
+    border: none;
+  
+}
+
+#form input[type=submit]{
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    height: 3em;
+    
+}
+
+#form select {
+    width: 50%;
+    border: 1px solid orange;
+    border-radius: 5px;
+    font-size: medium;
+    box-shadow: 5px 5px 10px rgb(207, 207, 207);
+}
+
+
+#fsubmit{
+    transition: 0.2s;
+}
+#fsubmit:hover{
+   background-color:rgb(248, 151, 6);
+   color: white;
+   transition: 0.2s;
+}
+
+#fsubmit:active{
+    background-color:rgb(234, 206, 165);
+    transition: 0s;
+    
+}
+
+
+.fas{
+    color: rgb(248, 151, 6);
+}
+
+#side_img_annonce{
+    /*background: url(../images/annonce.jpg) no-repeat center center fixed; 
+    background-size: cover;*/
+
+    width: 30%; /* may not be necessary */
+}
+
+#side_img_annonce img{
+    width:100%;
+    height:100%; 
+    object-fit:cover;
+}
+
